@@ -1,0 +1,15 @@
+{
+  "name": "armadyne",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "start:dev": "lerna run start:dev --parallel --stream"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
